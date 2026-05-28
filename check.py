@@ -160,7 +160,7 @@ def main():
 if __name__ == "__main__":
     offset = None
 
-    while True:
-        offset = handle_updates(offset)
-        main()
-        time.sleep(30)  # every 30 sec
+
+    offset = handle_updates(offset)
+    main()
+        
