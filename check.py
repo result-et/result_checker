@@ -150,12 +150,12 @@ def main():
     if new_posts:
         for post in new_posts:
             message = f"✈️ New Result Posted:\n\n{post}"
-            #send_telegram(message)
-            send_telegram("Test")
+            send_telegram(message)
             print("New:", post)
 
         save_new(amt_results)
     else:
+        send_telegram("Test")
         print("No new AMT updates.")
 
 if __name__ == "__main__":
