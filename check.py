@@ -163,4 +163,3 @@ if __name__ == "__main__":
 
     offset = handle_updates(offset)
     main()
-        
