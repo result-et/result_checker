@@ -153,7 +153,7 @@ def main():
             send_telegram(message)
             print("New:", post)
 
-        save_new(amt_results)
+        #save_new(amt_results)
     else:
         send_telegram("Test")
         print("No new AMT updates.")
