@@ -4,7 +4,7 @@ import json
 import time
 
 URL = "https://corporate.ethiopianairlines.com/AboutEthiopian/careers/results"  # replace if needed
-BOT_TOKEN = "8781730368:AAE6SGnocTysJaBG2K0X8GJZh4NTKB3dddw"
+BOT_TOKEN = "8781730368:AAH9CsnaAzqx2KXdHnSILXA_Vdzd-LC_2hg"
 # CHAT_ID = "727744944"
 
 
